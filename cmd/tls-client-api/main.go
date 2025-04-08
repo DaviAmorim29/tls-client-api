@@ -10,8 +10,11 @@ import (
 )
 
 func main() {
-	ex, _ := os.Executable()
-	configFilePath := filepath.Join(filepath.Dir(ex), "config.dist.yml")
+	cwd, err := os.Getwd()
+	if err != nil {
+		panic(err)
+	}
+	configFilePath := filepath.Join(cwd, "config.dist.yml")
 
 	application.Run(
 		application.WithConfigFile(configFilePath, "yml"),

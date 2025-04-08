@@ -30,7 +30,7 @@ api:
     write: 120s
     idle: 120s
 
-api_auth_keys: ["my-auth-key-1", "my-auth-key-2", "my-auth-key-3"]
+api_auth_keys: ["hunter-key"]
 
 api_cors_allowed_origin_pattern: ""
 api_cors_allowed_headers: ["X-API-KEY", "X-API-VIEW", "Content-Type"]

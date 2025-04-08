@@ -53,6 +53,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/dlclark/regexp2 v1.2.0 // indirect
 	github.com/elastic/go-elasticsearch/v7 v7.2.1-0.20190714143206-f1e755531ff4 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/getsentry/sentry-go v0.13.0 // indirect
@@ -74,6 +75,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
+	github.com/hashicorp/golang-lru v0.5.3 // indirect
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
@@ -100,7 +102,10 @@ require (
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/ory/ladon v1.2.0 // indirect
+	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
+	github.com/pierrec/lz4/v4 v4.1.14 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.19.1 // indirect
@@ -108,6 +113,7 @@ require (
 	github.com/prometheus/common v0.48.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/quic-go/quic-go v0.48.1 // indirect
+	github.com/segmentio/kafka-go v0.4.31 // indirect
 	github.com/sha1sum/aws_signing_client v0.0.0-20170514202702-9088e4c7b34b // indirect
 	github.com/spf13/cast v1.4.1 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
@@ -117,6 +123,8 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.34.0 // indirect
 	github.com/wsxiaoys/terminal v0.0.0-20160513160801-0940f3fc43a0 // indirect
+	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
+	github.com/xdg/stringprep v1.0.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	golang.org/x/crypto v0.29.0 // indirect
@@ -136,7 +144,7 @@ require (
 )
 
 // replacement is needed to build the application for windows
-replace github.com/justtrackio/gosoline => ../gosoline
+// replace github.com/justtrackio/gosoline => ../gosoline
 
 // replace github.com/bogdanfinn/fhttp => ../fhttp
 
